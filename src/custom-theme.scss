@@ -28,6 +28,11 @@ $kayneWestQuotes-theme: mat.define-light-theme((
   )
 ));
 
+body.kayneWestQuotes-theme {
+  background-color: #565254;
+  color: #fffbfe;
+}
+
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.

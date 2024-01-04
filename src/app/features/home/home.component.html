@@ -2,9 +2,9 @@
     <app-menu></app-menu>
     <div class="row" style="margin-top:200px">
         <div class="col text-center mt-5">
-            <p class="display-3">"Kanye West Quotes here"</p>
+            <p class="display-3">"{{ quote }}"</p>
             <div class="row">
-                <div class="col">
+                <div class="col" (click)="getData()">
                     <mat-icon>loop</mat-icon>
                 </div>
                 <div class="col">
