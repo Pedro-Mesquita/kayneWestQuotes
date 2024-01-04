@@ -33,6 +33,10 @@ body.kayneWestQuotes-theme {
   color: #fffbfe;
 }
 
+body a {
+  color: #fffbfe;
+  text-decoration: none
+}
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
